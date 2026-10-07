@@ -10,8 +10,7 @@
 // Dán URL Web App nhận được từ Google Apps Script vào đây:
 // Ví dụ: 'https://script.google.com/macros/s/AKfycbx.../exec'
 // Nếu để trống, hệ thống sẽ tự động lưu đơn vào LocalStorage để không mất dữ liệu!
-const GOOGLE_SCRIPT_WEBHOOK_URL = ''; 
-
+const GOOGLE_SCRIPT_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycby8zJlU6GO0nCb0I0087kVfWMkQHeeUmpGmjGfWggXT1u0_JkxfEj92QRbdE5lP0_cMGw/exec';
 document.addEventListener('DOMContentLoaded', () => {
   // 1. MOBILE MENU TOGGLE
   const siteHeader = document.querySelector('.site-header');
