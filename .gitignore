@@ -1,0 +1,15 @@
+# Dependencies & caches
+node_modules/
+.npm/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Agent & Brain logs
+.agents/
+.gemini/
+*.log
+scratch/
